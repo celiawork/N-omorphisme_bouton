@@ -1,0 +1,24 @@
+body {
+    background: #f8f7f7;
+}
+
+.button1 {
+
+    height: 100px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-radius: 50px;
+    display: block;
+    box-shadow: 5px 10px 12px rgb(218, 215, 215), -5px -5px 5px white;
+
+
+}
+
+.button1-press {
+
+    border-radius: 50px;
+    box-shadow: inset 12px 8px 13px rgb(218, 215, 215), inset -8px -7px 5px white;
+    transition: all 1s linear;
+}
